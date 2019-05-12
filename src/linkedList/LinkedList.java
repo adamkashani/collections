@@ -91,5 +91,11 @@ public class LinkedList<T> {
 		size--;
 		this.first = first.getNext();
 	}
-
+	
+	
+	public void clear () {
+		first = null;
+		last = null;
+		size = 0;
+	}
 }
